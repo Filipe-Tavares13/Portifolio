@@ -2,13 +2,67 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
+    color: #F1F5F9;
+    background-color: #1b1b1b;
 }
 
 .logo {
     width: 19vh;
-    height: 18vh;
+    height: 18.10vh;
+    border-radius: 70%;
+    border-style: outset;
+    margin-left: 20px;
 }
 
-nav {
+.titulo-nome {
+    font-weight: 200;
+    font-size: 5vh;
+    padding-left: 20px;
+}
     
+nav ul {    
+    display: flex;
+    font-weight: 500;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 2vw;
+    gap: 5em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+
+a:hover{
+    color: #456db1;
+}
+
+.titulo-sobre-mim {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.2em;
+    margin: 1.2em;
+}
+
+.texto-sobre-mim{
+    font-weight: 200;
+    display: flex;
+    text-align: justify;
+    padding: 5px 40px 40px 40px;
+    
+}
+
+.aside-soft-skills {
+text-align: center;
+padding-bottom: 10px;
+}
+
+aside {
+    width: 250px;
+    padding: 5px;
+    background-color: #5a8db8;
+    border-radius: 8px;
 }
